@@ -1,0 +1,25 @@
+:root{
+  --bg:#f7f7f7; --card:#fff; --accent:#2f8f4f;
+}
+body{font-family: Arial, Helvetica, sans-serif; background:var(--bg); margin:0}
+.app{max-width:1000px;margin:16px auto;padding:12px}
+header h1{margin:0 0 12px}
+.controls{background:var(--card);padding:12px;border-radius:6px;margin-bottom:12px}
+.searchbar{display:flex;gap:8px}
+.searchbar input{flex:1;padding:8px}
+.select-row{display:flex;gap:8px;align-items:center;margin-top:8px}
+.champs-row{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+.chip{background:#eee;padding:4px 8px;border-radius:12px}
+.actions{margin-top:8px}
+.champ-list{display:flex;flex-direction:column;gap:8px}
+.champ-card{display:flex;gap:12px;background:var(--card);padding:12px;border-radius:6px;align-items:center}
+.champ-card .left{width:160px;display:flex;flex-direction:column;align-items:center}
+.icon{width:64px;height:64px;background:#ddd;border-radius:8px}
+.middle{flex:1}
+.right{width:220px;text-align:left}
+.small{background:#eef;padding:6px;margin:4px;border-radius:6px}
+.small.bad{background:#fce}
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,0.35);display:flex;align-items:center;justify-content:center}
+.popup{background:white;padding:12px;border-radius:8px;width:420px}
+.popup textarea{width:100%;box-sizing:border-box}
+
